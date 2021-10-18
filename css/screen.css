@@ -12,10 +12,16 @@
   } 
   .navbar-brand{
     text-transform: uppercase;
+    font-size: 1.8rem;
     
 }
 
 .title-content h1{
   font-size: 3.5rem;
 
+}
+
+.title-content img {
+  padding: 10% 0;
+  
 }
