@@ -1,0 +1,8 @@
+#navbar-title {
+    background-color: var(--color1);
+    font-family: "Bodoni Moda", serif;
+  } 
+  .navbar-brand{
+    text-transform: uppercase;
+    
+}
