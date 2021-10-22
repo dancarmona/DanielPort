@@ -5,8 +5,39 @@
   --color-text:black;
 }
 
+.grey-side {
 
-#navbar-title {
+
+  box-shadow: 5px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .white-side {
+ 
+    box-shadow: 5px 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .title-content h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .title-content h4 {
+    font-size: 1.5rem;
+    color: var(--background-1);
+  }
+  .title-content h5 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  } 
+
+  
+    
+    
+
+
+
+
+
+/* #navbar-title {
     background-color: var(--background-white) ;
     
   } 
@@ -24,4 +55,4 @@
 .title-content img {
   padding: 10% 0;
   
-}
+} */
