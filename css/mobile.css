@@ -42,6 +42,12 @@ html {
 text-decoration: underline;
 }
 
+.navbar-nav a{
+  transition: width 2s, height 4s;
+  }
+
+
+
 
 
 /* TITTLE */
