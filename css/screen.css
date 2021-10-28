@@ -1,4 +1,32 @@
+
+:root {
+        --background-1: #c3c2c0;
+        --background-white: #ffffff;
+        --background-softwhite: #f5f5f5;
+        --color-text:black;
+      }
+/* title */
 .grey-side {
-    padding: 10% 15%;
-    
-    }
+        padding: 10% 15%;
+        
+        }
+
+
+/* CAROUSEL */
+
+  .process h5 {
+    margin-top: 15%;
+    font-size: 2rem;
+  }
+  .process p {
+    font-size: 1.3rem;
+}
+
+.process .carousel-control-prev-icon {
+    top: 40%;
+    left: 530%;
+  }
+  .process .carousel-control-next-icon {
+    top: 40%;
+
+  }

@@ -28,6 +28,13 @@ html {
     color: var(--color-text);
   }
 
+/* .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 555555;
+  
+} */
+
 /* NAVBAR */
 .navbar-brand {
     font-size: 1.5rem;
@@ -114,11 +121,17 @@ box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
   width: 100%; 
 } 
 
-.carousel-control-prev-icon, .carousel-control-next-icon  {
+.navbar-title .carousel-control-prev-icon   {
 position: absolute;
-bottom: 1px;
+bottom: 1%;
 background-color: rgb(0, 0, 0);
 margin-bottom: 30px;
+}
+.navbar-title .carousel-control-next-icon {
+  position: absolute;
+  bottom: 1%;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 30px; 
 }
 
 
@@ -127,14 +140,47 @@ margin-bottom: 30px;
 /* ********************PROCESS*************************** */
 .process {
 background-color: black;
-}
-/* LEFT SIDE */
-.uno {
-  background-color: red;
+justify-content: center;
+justify-items: center;
+color: white;
+padding: 5% 0;
+font-family: "Bodoni Moda", serif;
 }
 
-/* RIGHT SIDE */
+/* CAROUSEL */
 
-.dos {
-  background-color: royalblue;
+
+.process .carousel-image{
+  border-radius: 15px;
+  border: 5px solid rgb(41, 41, 41);
+  
 }
+
+.process .carousel-control-prev-icon {
+  position: relative;
+  top: 55%;
+  left: 500% ;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+.process .carousel-control-next-icon {
+  position: relative;
+  top: 55%;
+  bottom: 1%;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.process .text {
+  padding-left: 5%;
+}
+.process h5 {
+  margin-top: 20%;
+}
+.process p {
+  font-size: 1rem;
+}
+
+
+
+
