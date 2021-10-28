@@ -33,3 +33,7 @@ $('.spanx').fadeIn(5000, function () {
    $(this).text("Architects")
    
  });
+
+
+
+ 

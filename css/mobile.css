@@ -100,7 +100,7 @@ from, to { border-color: transparent }
 }
 .grey-side {
 background-color:var(--background-softwhite);
-padding: 10% 15%;
+padding: 10% 10%;
 box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 /* PICTURES */
@@ -127,14 +127,11 @@ margin-bottom: 30px;
 /* ********************PROCESS*************************** */
 .process {
 background-color: black;
-
 }
 /* LEFT SIDE */
-
 .uno {
   background-color: red;
 }
-
 
 /* RIGHT SIDE */
 
