@@ -156,11 +156,13 @@ text-align: center;
   padding: 2% 2%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.process .carousel-control-prev-icon
+ {
   background-image: none;
 }
-
+.process .carousel-control-next-icon{
+  background-image: none;
+}
 
 .process img{
   border-radius: 15px;
