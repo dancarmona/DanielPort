@@ -139,12 +139,13 @@ margin-bottom: 30px;
 
 /* ********************PROCESS*************************** */
 .process {
-background-color: black;
+background: linear-gradient(to bottom,  #f5f5f5 55%,#000000 50%,#000000 50%,#000000 100%);
 justify-content: center;
 justify-items: center;
 color: white;
 padding: 5% 0;
 font-family: "Bodoni Moda", serif;
+text-align: center;
 }
 
 /* CAROUSEL */
@@ -152,34 +153,27 @@ font-family: "Bodoni Moda", serif;
 
 .process .carousel-image{
   border-radius: 15px;
-  border: 5px solid rgb(41, 41, 41);
+  border: 3px solid rgb(41, 41, 41);
   
 }
 
-.process .carousel-control-prev-icon {
-  position: relative;
-  top: 55%;
-  left: 500% ;
-  background-color: rgb(0, 0, 0);
-  margin-bottom: 30px;
+
+.process a {
+  width: 5%;
+  left: auto;
+  top: auto;
 }
-.process .carousel-control-next-icon {
-  position: relative;
-  top: 55%;
-  bottom: 1%;
-  background-color: rgb(0, 0, 0);
-  margin-bottom: 30px;
+.process .text {
+padding: 5%
 }
 
-.process .text {
-  padding-left: 5%;
-}
 .process h5 {
   margin-top: 20%;
 }
 .process p {
   font-size: 1rem;
 }
+
 
 
 

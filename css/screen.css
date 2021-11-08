@@ -22,11 +22,8 @@
     font-size: 1.3rem;
 }
 
-.process .carousel-control-prev-icon {
-    top: 40%;
-    left: 530%;
-  }
-  .process .carousel-control-next-icon {
-    top: 40%;
-
-  }
+.process a {
+  width: 2%;
+  
+  top: auto;
+}
