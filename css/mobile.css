@@ -126,15 +126,15 @@ position: absolute;
 bottom: 1%;
 background-color: rgb(0, 0, 0);
 margin-bottom: 30px;
-width: 25px;
+
 }
 .navbar-title .carousel-control-next-icon {
   position: absolute;
   bottom: 1%;
   background-color: rgb(0, 0, 0);
   margin-bottom: 30px; 
-  width: 25px;
 }
+
 
 
 
@@ -152,33 +152,22 @@ text-align: center;
 
 /* CAROUSEL */
 
-
-.process .carousel-image{
-  border-radius: 15px;
-  border: 3px solid rgb(41, 41, 41);
-  
+.process .carousel-item {
+  padding: 2% 15%;
 }
-.process .carousel-control-prev-icon   {
-  position: absolute;
-  bottom: 5%;
-  left: 1%;
- 
-  margin-bottom: 30px;
-  width: 25px;
-  }
-  .process .carousel-control-next-icon {
-    position: absolute;
-    bottom: 5%;
-    right: 1%;
-    margin-bottom: 30px; 
-    width: 25px;
-  }
 
-/* .process a {
-  width: 5%;
-  left: auto;
-  top: auto;
+/* .process .carousel-control-next-icon {
+background-color: black;
+
 } */
+
+
+
+.process img{
+  border-radius: 15px;
+  border: 3px solid rgb(41, 41, 41); 
+}
+
 .process .text {
 padding: 8%
 }
