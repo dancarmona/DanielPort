@@ -126,12 +126,14 @@ position: absolute;
 bottom: 1%;
 background-color: rgb(0, 0, 0);
 margin-bottom: 30px;
+width: 25px;
 }
 .navbar-title .carousel-control-next-icon {
   position: absolute;
   bottom: 1%;
   background-color: rgb(0, 0, 0);
   margin-bottom: 30px; 
+  width: 25px;
 }
 
 
@@ -156,22 +158,36 @@ text-align: center;
   border: 3px solid rgb(41, 41, 41);
   
 }
+.process .carousel-control-prev-icon   {
+  position: absolute;
+  bottom: 5%;
+  left: 1%;
+ 
+  margin-bottom: 30px;
+  width: 25px;
+  }
+  .process .carousel-control-next-icon {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    margin-bottom: 30px; 
+    width: 25px;
+  }
 
-
-.process a {
+/* .process a {
   width: 5%;
   left: auto;
   top: auto;
-}
+} */
 .process .text {
-padding: 5%
+padding: 8%
 }
 
 .process h5 {
   margin-top: 20%;
 }
 .process p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 
