@@ -14,16 +14,35 @@
 
 /* CAROUSEL */
 
-  .process h5 {
+.process h5 {
     margin-top: 15%;
     font-size: 2rem;
   }
-  .process p {
+.process p {
     font-size: 1.3rem;
 }
 
-.process a {
-  width: 2%;
+
+
+.process .carousel-item {
+  padding: 2% 8%;
+}
+
+.process .carousel-control-prev-icon
+ {
+  width: 20px;
+  height: 20px;
+  margin-right: 50% ;
+  background-image:initial;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
   
-  top: auto;
+}
+.process .carousel-control-next-icon{
+  width: 20px;
+  height: 20px;
+  margin-left: 50% ;
+  background-image: unset;
+  background-color: #f5f5f5;
+  border-radius: 50px;
 }
